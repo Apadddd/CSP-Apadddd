@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Agar elemen yang berlebih turun ke baris baru */
+    height: 100vh; /* Tinggi viewport penuh untuk vertikal */
+    background-color: #f0f0f0; /* Warna latar belakang opsional */
+    font-family: Arial, sans-serif; /* Font default */
+}
+
+.kotak {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan konten di dalam kotak */
+    margin: 10px;
+    padding: 20px;
+    background-color: white; /* Warna latar belakang kotak */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+    border-radius: 10px; /* Membuat sudut kotak melengkung */
+    width: 200px; /* Lebar tetap untuk setiap kotak */
+    text-align: center;
+}
+
+.kotak img {
+    margin-bottom: 10px; /* Jarak antara gambar dan teks */
+}
+
+.kotak button {
+    margin-top: 10px; /* Jarak antara tombol dan elemen sebelumnya */
+    padding: 10px 20px; /* Ruang di dalam tombol */
+    background-color: #007bff; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Hapus border default */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    font-size: 14px; /* Ukuran font */
+    cursor: pointer; /* Menampilkan pointer saat hover */
+    transition: background-color 0.3s ease; /* Efek transisi warna */
+}
+
+.kotak button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
